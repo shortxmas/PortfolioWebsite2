@@ -1,0 +1,19 @@
+body 
+{
+  /* Give some minimum height to the body so that the footer doesn't overlap with the content. */
+  min-height: 100vh;
+  position: relative; /* Make sure the body is relative to use absolute positioning for the footer. */
+  margin-bottom: 80px; /* Adjust this value to add space between the content and the footer. */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px; /* Adjust this value to set the height of the footer. */
+  background-color: #333; /* Set the desired background color for the footer. */
+  color: #fff; /* Set the text color for the footer. */
+  padding: 20px; /* Add padding to the footer content. */
+}
+
+
